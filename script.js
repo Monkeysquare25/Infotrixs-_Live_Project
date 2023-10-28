@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
 
@@ -66,4 +68,5 @@ var swiper = new Swiper(".review-slider", {
         delay: 5000,
         disableOnInteraction: false,
     }
+});
 });
